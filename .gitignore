@@ -1,3 +1,6 @@
+Post_Data/
+Pre_Data/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
