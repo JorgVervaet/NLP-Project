@@ -2,6 +2,7 @@ Post_Data/
 Pre_Data/
 Camembert-base/
 fr/
+*.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
