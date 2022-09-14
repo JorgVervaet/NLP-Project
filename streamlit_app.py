@@ -1,4 +1,3 @@
-from tkinter import Image
 import numpy
 import joblib
 import streamlit as st
