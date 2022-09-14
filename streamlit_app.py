@@ -29,10 +29,7 @@ def main():
     #</div>
     st.markdown(html_temp, unsafe_allow_html=True)
     image = st.file_uploader("Upload Image", type=['jpg', 'png', 'jpeg'])
-    if image is not None:
-        our_image = Image.open(image)
-        st.text("Original Image")
-        st.image(our_image)
+
     activities = ["Prediction"]
     choice = st.sidebar.selectbox("Select Activity", activities)
     if choice == 'Prediction':
