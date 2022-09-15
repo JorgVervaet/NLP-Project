@@ -3,6 +3,8 @@ Pre_Data/
 Camembert-base/
 fr/
 *.txt
+*.csv
+*.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
