@@ -49,6 +49,14 @@ Model evaluation :
 
 We used classification report to evaluate our model (Accuracy = 0.91 for Linear SVC)
 
+## streamlit_app.py
+
+To run the streamlit_app.py file just use the following command in the terminal:
+- 'streamlit run streamlit_app.py'
+
+This file is used to make the model run online so that it can easily be utilized with a appropriate interface.
+
+
 ## Authors of this project
 
 * [Stefan Mihut](https://github.com/StefanMihut)
