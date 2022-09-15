@@ -4,7 +4,7 @@
 
 Train a model that can recognize a certain label by reading a text.
 
-## Instalation
+## Installation
 
 For running these programs we recommend Python 3.9.13 and you can run this to install all the necessary libraries:
 - 'pip install -r requirement.txt'
