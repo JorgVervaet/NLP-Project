@@ -38,6 +38,9 @@ We compared different machine learning models which are as follows:
 3. MultinomialNB
 4. Logistic regression
 
+This is the result of the different models in a graph:
+
+pic/models.png
 
 
 Based on the evaluation metrics (Mean accuracy & Standard deviation), we decided to use Linear SVC model.
