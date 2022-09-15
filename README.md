@@ -4,6 +4,17 @@
 
 Train a model that can recognize a certain label by reading a text.
 
+## Instalation
+
+For running these programs we recommend Python 3.9.13 and you can run this to install all the necessary libraries:
+- 'pip install -r requirement.txt'
+
+If you have problems with the FrenchLefffLemmatizer use this line in your terminal:
+- 'pip install git+https://github.com/ClaudeCoulombe/FrenchLefffLemmatizer.git'
+
+
+
+
 ## Aug_data.ipynb
 
 This file is for augmenting the data if you have few data. The more data you have the better the model will perform.
@@ -16,11 +27,6 @@ Then it will save a new file with the augmented data.
 
 This file does all the preprocessing of the data to get the most out of the model.
 
-For this you will need to install french_lefff_lemmatizer.
-
-You can do this by using this line in the terminal:
-'pip install git+https://github.com/ClaudeCoulombe/FrenchLefffLemmatizer.git'
-
 ## svm_model.ipynb
 
 ### Model selection:
@@ -29,7 +35,10 @@ We compared different machine learning models which are as follows:
 
 1. Random forest classifier
 2. Linear SVC
-3. Logistic regression
+3. MultinomialNB
+4. Logistic regression
+
+
 
 Based on the evaluation metrics (Mean accuracy & Standard deviation), we decided to use Linear SVC model.
 
