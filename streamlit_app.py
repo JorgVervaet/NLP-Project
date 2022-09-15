@@ -1,3 +1,4 @@
+from email.mime import application
 from statistics import variance
 from turtle import done
 from unittest import result
@@ -18,7 +19,7 @@ model = joblib.load(open("", "rb"))
 load_vectorizer = joblib.load(open("", "rb"))
 
 french_stopwords = nltk.corpus.stopwords.words('french')
-mots = set(line.strip() for line in open('dictionary', encoding="utf8"))
+mots = set(line.strip() for line in open('', encoding="utf8"))
 lemmatizer = FrenchLefffLemmatizer()
 
 nltk.download('wordnet')
@@ -54,7 +55,7 @@ def main():
     result = ""
     
     if variance is not None:
-        if variance.type == "json":
+        if variance.type == 'application/json':
             dataframe = pd.read_json(variance)
                        
         else:
