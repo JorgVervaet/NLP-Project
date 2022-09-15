@@ -2,7 +2,7 @@ Post_Data/
 Pre_Data/
 Camembert-base/
 fr/
-*.txt
+
 *.csv
 *.json
 

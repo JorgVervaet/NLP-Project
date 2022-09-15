@@ -27,7 +27,7 @@ Then it will save a new file with the augmented data.
 
 This file does all the preprocessing of the data to get the most out of the model.
 
-## svm_model.ipynb
+## svc_model.ipynb
 
 ### Model selection:
 
