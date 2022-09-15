@@ -21,6 +21,21 @@ For this you will need to install french_lefff_lemmatizer.
 You can do this by using this line in the terminal:
 'pip install git+https://github.com/ClaudeCoulombe/FrenchLefffLemmatizer.git'
 
+## svm_model.ipynb
+
+### Model selection:
+
+We compared different machine learning models which are as follows:
+
+1. Random forest classifier
+2. Linear SVC
+3. Logistic regression
+
+Based on the evaluation metrics (Mean accuracy & Standard deviation), we decided to use Linear SVC model.
+
+Model evaluation :
+
+We used classification report to evaluate our model (Accuracy = 0.91 for Linear SVC)
 
 ## Authors of this project
 
